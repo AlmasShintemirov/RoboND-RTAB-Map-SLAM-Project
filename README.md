@@ -7,13 +7,12 @@ This project creates a 2D occupancy grid and 3D octomap from a Gazebo simulated 
 
 # Installation
 
-#Follow the RTAB-Map installation instructions from http://wiki.ros.org/rtabmap_ros
-
-#git clone https://github.com/AlmasShintemirov/RoboND-RTAB-Map-SLAM-Project.git to your "catkin_ws"/src folder
-
-#cd ..
-
-#catkin_make
+Follow the RTAB-Map installation instructions from http://wiki.ros.org/rtabmap_ros
+git clone https://github.com/AlmasShintemirov/RoboND-RTAB-Map-SLAM-Project.git to your "catkin_ws"/src folder
+git clone git clone https://github.com/ros-teleop/teleop_twist_keyboard
+cd ..
+catkin_make
+source devel/setup.bash
 
 # Running
 
