@@ -25,3 +25,9 @@ roslaunch my_robot_slam world.launch
 
 roslaunch my_robot_slam teleop.launch
 
+roslaunch my_robot_slam mapping.launch
+
+
+Recorded database can opened and viewed using rtabmap-databaseViewer:
+
+rtabmap-databaseViewer ~/.ros/rtabmap.db
