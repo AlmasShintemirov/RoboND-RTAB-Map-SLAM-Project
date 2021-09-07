@@ -9,12 +9,15 @@ This project creates a 2D occupancy grid and 3D octomap from a Gazebo simulated 
 
 #Follow the RTAB-Map installation instructions from http://wiki.ros.org/rtabmap_ros
 
-#git clone 
+#git clone https://github.com/AlmasShintemirov/RoboND-RTAB-Map-SLAM-Project.git to your "catkin_ws"/src folder
 
+#cd ..
 
+#catkin_make
 
+# Running
 
+roslaunch my_robot_slam world.launch
 
+roslaunch my_robot_slam teleop.launch
 
-
-implements ROS Localisation and Navigation using Adaptive Monte Carlo Localisation (ROS AMCL package http://wiki.ros.org/amcl) with a skid-steer robot
