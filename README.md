@@ -5,7 +5,7 @@ Udacity Robotics Software Engineer Nanodegree Project 4
 
 This project creates a 2D occupancy grid and 3D octomap from a Gazebo simulated environment with the RTAB-Map package (http://wiki.ros.org/rtabmap_ros).
 
-# Installation
+## Installation
 
   Follow the RTAB-Map installation instructions from http://wiki.ros.org/rtabmap_ros
   
@@ -19,7 +19,7 @@ This project creates a 2D occupancy grid and 3D octomap from a Gazebo simulated 
   
   source devel/setup.bash
 
-# Running
+## Running
 
 roslaunch my_robot_slam world.launch
 
