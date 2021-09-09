@@ -25,16 +25,16 @@ This project creates a 2D occupancy grid and 3D octomap from a Gazebo simulated 
 
 ## Running
 
-roslaunch my_robot_slam world.launch
+    roslaunch my_robot_slam world.launch
 
-roslaunch my_robot_slam teleop.launch
+    roslaunch my_robot_slam teleop.launch
 
-roslaunch my_robot_slam mapping.launch
+    roslaunch my_robot_slam mapping.launch
 
 
 Recorded database can opened and viewed using rtabmap-databaseViewer:
 
-rtabmap-databaseViewer ~/.ros/rtabmap.db
+    rtabmap-databaseViewer ~/.ros/rtabmap.db
 
 ![Screenshot from 2021-09-07 21-43-00](https://user-images.githubusercontent.com/13367696/132380884-50dd08e3-18b3-418c-9d1e-612b3ce9363e.png)
 
